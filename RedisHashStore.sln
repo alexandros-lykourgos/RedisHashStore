@@ -1,0 +1,48 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31220.234
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5AE575E7-75D5-49E9-A278-77BD13DC0917}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{16872957-6F74-4B24-B063-FD24FE0EA33A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Redis", "src\Common.Redis\Common.Redis.csproj", "{431E9C37-3070-42B7-98F4-42F1D5758AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Redis.Tests", "tests\Common.Redis.Tests\Common.Redis.Tests.csproj", "{899D29AB-1D16-4C62-80D3-A3E551902EF7}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = b392e3c3-5440-42ad-ad0b-718e6445d831
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{431E9C37-3070-42B7-98F4-42F1D5758AA1} = {5AE575E7-75D5-49E9-A278-77BD13DC0917}
+		{899D29AB-1D16-4C62-80D3-A3E551902EF7} = {16872957-6F74-4B24-B063-FD24FE0EA33A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{431E9C37-3070-42B7-98F4-42F1D5758AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431E9C37-3070-42B7-98F4-42F1D5758AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431E9C37-3070-42B7-98F4-42F1D5758AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431E9C37-3070-42B7-98F4-42F1D5758AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431E9C37-3070-42B7-98F4-42F1D5758AA1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{431E9C37-3070-42B7-98F4-42F1D5758AA1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{899D29AB-1D16-4C62-80D3-A3E551902EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899D29AB-1D16-4C62-80D3-A3E551902EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899D29AB-1D16-4C62-80D3-A3E551902EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899D29AB-1D16-4C62-80D3-A3E551902EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899D29AB-1D16-4C62-80D3-A3E551902EF7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{899D29AB-1D16-4C62-80D3-A3E551902EF7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+	EndGlobalSection
+EndGlobal
